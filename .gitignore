@@ -1,0 +1,46 @@
+# Add any directories, files, or patterns you don't want to be tracked by version control
+# Eclipse
+.classpath
+.project
+.settings/
+
+# Intellij
+*.ipr
+.idea/
+*.iml
+*.iws
+
+# Mac
+.DS_Store
+
+# Maven
+log/
+target/
+build/
+out/
+
+# Gradle
+.gradle/
+activemq-data/* 
+
+/bin
+
+logs/p2p/cashalo.error
+logs/p2p/cashalo.log
+cashalo.error
+cashalo.log
+disconf/download
+finance-account.properties
+disconf.properties
+finance-common.properties
+finance-core.properties
+finance-message.properties
+finance-mq.properties
+finance-payment.properties
+finance-product.properties
+finance-sso.properties
+finance-trade.properties
+nation.properties
+application-sit1.yml
+
+properties/*
